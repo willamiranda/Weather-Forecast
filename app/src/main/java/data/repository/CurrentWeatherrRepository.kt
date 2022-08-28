@@ -1,7 +1,7 @@
 package data.repository
 
-import network.ForecastResponse
-import network.WeaatherrResponse
+import data.network.ForecastResponse
+import data.network.WeaatherrResponse
 
 interface CurrentWeatherrRepository {
     suspend fun getWeatherLocation(location: String): WeaatherrResponse

@@ -1,4 +1,4 @@
-package network
+package data.network
 
 
 data class WeaatherrResponse(

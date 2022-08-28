@@ -18,6 +18,7 @@ import java.util.*
 class HomeFragment {
     private val viewModel by viewModel<HomeViewModel>()
     lateinit var binding: HomeFragmentBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

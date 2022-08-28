@@ -1,4 +1,4 @@
-package network
+package data.network
 
 import retrofit2.http.GET
 import retrofit2.http.Query

@@ -2,9 +2,9 @@ package data.repository
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import network.Api
-import network.ForecastResponse
-import network.WeaatherrResponse
+import data.network.Api
+import data.network.ForecastResponse
+import data.network.WeaatherrResponse
 
 class CurrentWeatherImp(    private val api: Api
 ) : CurrentWeatherrRepository {

@@ -8,12 +8,14 @@ import base.BaseViewModel
 import com.android.volley.NetworkResponse
 import com.example.weatherforecast.R
 import data.repository.CurrentWeatherrRepository
+import data.repository.ForecastRepository
 import kotlinx.coroutines.Dispatchers
-import network.WeaatherrResponse
+import data.network.WeaatherrResponse
+import utils.hasInternet
 
 class HomeViewModel (
     private val currentWheaterRepository: CurrentWeatherrRepository,
-
+    private val forecastRepository: ForecastRepository
     ) : BaseViewModel(){
     var currentWeather: MutableLiveData<WeaatherrResponse> = MutableLiveData()
 
