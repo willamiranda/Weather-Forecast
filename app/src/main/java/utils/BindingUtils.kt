@@ -3,7 +3,6 @@ package utils
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import com.example.weatherforecast.R
-import utils.internal_glide.GlideApp
 
 class BindingUtils {
     companion object {
@@ -13,10 +12,10 @@ class BindingUtils {
         fun loadImageView(image: ImageView, url: String?) {
             if (!url.isNullOrEmpty()) {
 
-                GlideApp.with(image)
-                    .load("https:${url}")
-                    .error(R.drawable.ic_sunny_cloud)
-                    .into(image)
+                //GlideApp.with(image)
+                   // .load("https:${url}")
+                    //.error(R.drawable.ic_sunny_cloud)
+                    //.into(image)
             }
         }
 

@@ -8,7 +8,8 @@
         <entry key="..\:/Users/DELL/WeatherForecast2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.125" />
         <entry key="..\:/Users/DELL/WeatherForecast2/app/src/main/res/drawable/ic_sunny_background.xml" value="0.1" />
         <entry key="..\:/Users/DELL/WeatherForecast2/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/DELL/WeatherForecast2/app/src/main/res/layout/history_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/WeatherForecast2/app/src/main/res/layout/history_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/WeatherForecast2/app/src/main/res/layout/history_item.xml" value="0.1" />
         <entry key="..\:/Users/DELL/WeatherForecast2/app/src/main/res/layout/home_fragment.xml" value="0.2654424040066778" />
         <entry key="..\:/Users/DELL/WeatherForecast2/app/src/main/res/menu/bottom_navigation.xml" value="0.209375" />
       </map>

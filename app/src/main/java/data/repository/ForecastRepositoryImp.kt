@@ -1,7 +1,10 @@
 package data.repository
 
-class ForecastRepositoryImp {
-    private val forecastDao: ForecastDao
+import data.db.entity.ForecastQuery
+import data.db.entity.History
+
+class ForecastRepositoryImp (
+    private val forecastDao: ForecastQuery
     ) : ForecastRepository {
 
         override suspend fun addForecast(history: History) {

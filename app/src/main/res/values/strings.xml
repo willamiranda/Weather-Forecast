@@ -7,4 +7,7 @@
     <string name="erro_consulta_api">Erro na consulta da API</string>
     <string name="today_city">Today - %1$s</string>
     <string name="loading">Loading</string>
+    <string name="city">City</string>
+    <string name="cidade">Cidade</string>
+    <string name="date_hour">Date/Hour</string>
 </resources>

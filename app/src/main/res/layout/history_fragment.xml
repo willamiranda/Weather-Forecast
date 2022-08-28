@@ -32,7 +32,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
-            tools:listitem="@layout/forecast_history_item"
+            tools:listitem="@layout/history_item"
             android:id="@+id/forecastHistory_rv"
             android:backgroundTint="@color/purple_500"
             android:layout_width="match_parent"
