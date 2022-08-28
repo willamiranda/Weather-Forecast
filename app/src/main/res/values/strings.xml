@@ -4,4 +4,6 @@
     <string name="next_days">Next day</string>
     <string name="history_save">" History saved"</string>
     <string name="location">Add location</string>
+    <string name="erro_consulta_api">Erro na consulta da API</string>
+    <string name="today_city">Today - %1$s</string>
 </resources>
