@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WeatherForecast</string>
+    <string name="today">Today</string>
+    <string name="next_days">Next day</string>
+    <string name="history_save">" History saved"</string>
+    <string name="location">Add location</string>
 </resources>

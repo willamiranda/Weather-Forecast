@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/currentWeatherFragment"
+        android:icon="@drawable/ic_baseline_today"
+        android:title="@string/today"
+        />
+    <item
+        android:id="@+id/nextWeatherDetailsFragment"
+        android:icon="@drawable/ic_calender"
+        android:title="@string/next_days"/>
+
+    <item
+        android:id="@+id/forecastHistoryFragment"
+        android:icon="@drawable/ic_save_history"
+        android:title="@string/history_save"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_dd_location"
+        android:title="@string/location"/>
+</menu>
