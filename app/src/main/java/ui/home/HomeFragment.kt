@@ -10,12 +10,13 @@ import androidx.constraintlayout.motion.widget.Debug.getLocation
 import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.viewmodel.compose.viewModel
+import base.ScopedFragment
 import com.android.volley.NetworkResponse
 import com.example.weatherforecast.R
 import com.example.weatherforecast.databinding.HomeFragmentBinding
 import java.util.*
 
-class HomeFragment {
+class HomeFragment: ScopedFragment() {
     private val viewModel by viewModel<HomeViewModel>()
     lateinit var binding: HomeFragmentBinding
 

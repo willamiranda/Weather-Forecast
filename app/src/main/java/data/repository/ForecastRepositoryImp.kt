@@ -4,14 +4,14 @@ import data.db.entity.ForecastQuery
 import data.db.entity.History
 
 class ForecastRepositoryImp (
-    private val forecastDao: ForecastQuery
+    private val forecastQuery: ForecastQuery
     ) : ForecastRepository {
 
         override suspend fun addForecast(history: History) {
-            return forecastDao.addForecast(history)
+            return forecastQuery.addForecast(history)
         }
 
         override suspend fun getForecast(): List<History> {
-            return forecastDao.getForecast()
+            return forecastQuery.getForecast()
         }
 }
