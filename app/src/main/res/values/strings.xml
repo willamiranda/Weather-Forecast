@@ -10,7 +10,7 @@
     <string name="city">City</string>
     <string name="cidade">Cidade</string>
     <string name="date_hour">Date/Hour</string>
-    <string name="search_location">Search location</string>
+    <string name="search_location">Search location for weather forecast</string>
     <string name="next_3_days">Next 3 days</string>
     <string name="forecast_history">Forecast History</string>
 </resources>

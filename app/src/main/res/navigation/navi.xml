@@ -16,16 +16,16 @@
     </fragment>
     <fragment
         android:id="@+id/nextWeatherDetailsFragment"
-        android:name="com.example.weatherforecast.ui.nextweather.NextWeatherDetailsFragment"
+        android:name="ui.nextweather.NextWeatherDetailsFragment"
         android:label="Weather forecast"
         tools:layout="@layout/next_weather_fragment" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.weatherforecast.ui.settings.SettingsFragment"
+        android:name="ui.SettingsFragment"
         android:label="Settings" />
     <fragment
         android:id="@+id/forecastHistoryFragment"
-        android:name="com.example.weatherforecast.ui.history.ForecastHistoryFragment"
+        android:name="ui.history.ForecastHistoryFragment"
         android:label="History" />
 
 </navigation>
