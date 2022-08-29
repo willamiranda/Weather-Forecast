@@ -6,17 +6,23 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.constraintlayout.motion.widget.Debug.getLocation
+
 import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.viewmodel.compose.viewModel
+
 import base.ScopedFragment
-import com.android.volley.NetworkResponse
+
 import com.example.weatherforecast.R
 import com.example.weatherforecast.databinding.HomeFragmentBinding
+import data.db.entity.History
+import org.koin.androidx.viewmodel.compat.ScopeCompat.viewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
+import utils.NetworkResponse
+import utils.PreferenceHelp.getLocation
 import java.util.*
 
-class HomeFragment: ScopedFragment() {
+class HomeFragment : ScopedFragment() {
+
     private val viewModel by viewModel<HomeViewModel>()
     lateinit var binding: HomeFragmentBinding
 
@@ -44,8 +50,6 @@ class HomeFragment: ScopedFragment() {
         binding.nextDaysTitle.text =
             String.format(getString(R.string.today_city), getLocation(requireActivity()))
     }
-
-
 
     private fun setupObservers() {
 

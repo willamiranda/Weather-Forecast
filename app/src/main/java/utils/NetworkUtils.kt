@@ -22,3 +22,4 @@ fun hasInternet(context: Context?): Boolean {
         }
         return false
     }
+}

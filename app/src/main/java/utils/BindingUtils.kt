@@ -4,6 +4,7 @@ import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import com.example.weatherforecast.R
 
+
 class BindingUtils {
     companion object {
 
@@ -12,11 +13,11 @@ class BindingUtils {
         fun loadImageView(image: ImageView, url: String?) {
             if (!url.isNullOrEmpty()) {
 
-                //GlideApp.with(image)
-                   // .load("https:${url}")
-                    //.error(R.drawable.ic_sunny_cloud)
-                    //.into(image)
-            }
+              /*GlideApp.with(image)
+                  .load("https:${url}")
+                   .error(R.drawable.ic_sunny_cloud)
+                    .into(image)
+ */           }
         }
 
         @JvmStatic
