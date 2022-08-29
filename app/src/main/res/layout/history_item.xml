@@ -32,12 +32,12 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/cidade"
+                android:id="@+id/text_city_api"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/cidade"
+                android:text="@string/cityapi"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@+id/tex1"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -48,10 +48,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
-                android:text="Temp:"
+                android:text="Temperature:"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/cidade"
+                app:layout_constraintStart_toEndOf="@+id/text_city_api"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -79,7 +79,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/tex1" />
 
             <TextView
-                android:id="@+id/date_tv"
+                android:id="@+id/text_hi_date_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"

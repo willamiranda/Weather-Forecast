@@ -8,7 +8,7 @@
     <string name="today_city">Today - %1$s</string>
     <string name="loading">Loading</string>
     <string name="city">City</string>
-    <string name="cidade">Cidade</string>
+    <string name="cityapi">Cityapi</string>
     <string name="date_hour">Date/Hour</string>
     <string name="search_location">Search location for weather forecast</string>
     <string name="next_3_days">Next 3 days</string>

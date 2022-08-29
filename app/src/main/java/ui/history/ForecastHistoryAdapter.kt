@@ -16,9 +16,9 @@ class ForecastHistoryAdapter(private val dataSet: List<History>) :
     class ViewHolder(private val binding: HistoryItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(history: History) {
-            binding.cidade.text = history.region
+            binding.textCityApi.text = history.region
             binding.temp.text = "" + history.temp
-            binding.dateTv.text = history.date
+            binding.textHiDateTv.text = history.date
         }
     }
 
