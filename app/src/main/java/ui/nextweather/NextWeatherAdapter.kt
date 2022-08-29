@@ -9,8 +9,9 @@ import com.example.weatherforecast.databinding.NextWeatherFragmentBinding
 import com.example.weatherforecast.databinding.NextWeatherItemBinding
 import data.network.Forecast
 import data.network.ForecastResponse
+import utils.internal_glide.GlideApp
 
-class NextWeatherAdapter (private val dataSet: ForecastResponse) :
+class NextWeatherAdapter(private val dataSet: ForecastResponse) :
     RecyclerView.Adapter<NextWeatherAdapter.ViewHolder>() {
 
     lateinit var binding: NextWeatherItemBinding
@@ -21,12 +22,13 @@ class NextWeatherAdapter (private val dataSet: ForecastResponse) :
             binding.dateTv.text = forecast.date
 
             val x = forecast.day.maxtemp_c
-            binding.temperatureTv.text = "${forecast.day.maxtemp_c.toInt()} / ${forecast.day.mintemp_c.toInt()}"
+            binding.temperatureTv.text =
+                "${forecast.day.maxtemp_c.toInt()} / ${forecast.day.mintemp_c.toInt()}"
 
-     /*       GlideApp.with(binding.conditionIcon)
+            GlideApp.with(binding.conditionIcon)
                 .load("https:${forecast.day.condition.icon}")
                 .error(R.drawable.ic_sunny_cloud)
-                .into(binding.conditionIcon)*/
+                .into(binding.conditionIcon)
         }
     }
 

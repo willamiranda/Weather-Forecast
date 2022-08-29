@@ -1,3 +1,5 @@
+package utils
+
 import android.app.Application
 import di.appComponent
 import org.koin.android.ext.koin.androidContext
