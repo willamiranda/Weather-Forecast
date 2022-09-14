@@ -57,4 +57,5 @@ class ForecastHistoryFragment: Fragment() {
         adapter = ForecastHistoryAdapter(history)
         binding.forecastHistoryRv.adapter = adapter
     }
+
 }
